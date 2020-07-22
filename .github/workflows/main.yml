@@ -17,6 +17,8 @@ jobs:
       uses: warrenbuckley/Setup-MSBuild@v1
     - name: Build with dotnet
       run: msbuild XamarinAndroidToolTips/XamarinAndroidToolTips.csproj -property:Configuration=Release
+    - name: Pack with dotnet
+      run: nuget pack XamarinAndroidToolTips.nuspec
     - name: Push Package to nuget
       run: dotnet nuget push **/*.nupkg
              --api-key ${{ secrets.nugetapikey }}
