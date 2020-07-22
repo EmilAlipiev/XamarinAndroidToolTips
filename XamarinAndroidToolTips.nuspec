@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>XamarinAndroid.ToolTips</id>
+    <version>1.0.0</version>
+    <title>XamarinAndroid.ToolTips</title>
+    <authors>Emil Alipiev</authors>
+    <owners>EmilAlipiev</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/EmilAlipiev/XamarinAndroidToolTips</projectUrl>
+	<repository type="git" url="https://github.com/EmilAlipiev/XamarinAndroidToolTips" />
+    <description>Tooltips and custom hover popup for Xamarin.Android projects</description>
+    <releaseNotes></releaseNotes>
+    <tags>Xamarin, Xamarin.Android, ToolTips, ToolTip, Popup, Hover</tags>    
+	<license type="expression">MIT</license>
+  </metadata>
+   <files>      
+      <!--Android--> 
+	  <file src="XamarinToolTip\bin\Release\XamarinToolTip.dll" target="lib\MonoAndroid90" />  	 
+	  <file src="XamarinToolTip\bin\Release\XamarinToolTip.pdb" target="lib\MonoAndroid90" />  	 
+    </files>
+</package>
