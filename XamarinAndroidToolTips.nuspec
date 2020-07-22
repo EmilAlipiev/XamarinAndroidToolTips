@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>XamarinAndroid.ToolTips</id>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <title>XamarinAndroid.ToolTips</title>
     <authors>Emil Alipiev</authors>
     <owners>EmilAlipiev</owners>
@@ -16,7 +16,7 @@
   </metadata>
    <files>      
       <!--Android--> 
-	  <file src="XamarinToolTip\bin\Release\XamarinToolTip.dll" target="lib\MonoAndroid90" />  	 
-	  <file src="XamarinToolTip\bin\Release\XamarinToolTip.pdb" target="lib\MonoAndroid90" />  	 
+	  <file src="XamarinToolTip\bin\Release\XamarinToolTip.dll" target="lib\MonoAndroid10" />  	 
+	  <file src="XamarinToolTip\bin\Release\XamarinToolTip.pdb" target="lib\MonoAndroid10" />  	 
     </files>
 </package>
