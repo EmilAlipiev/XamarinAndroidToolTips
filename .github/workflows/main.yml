@@ -3,7 +3,7 @@ name: Nuget Package Deploy
 on: 
  push:
    branches: 
-     - master
+     - AndroidX
 jobs:
   build:
     runs-on: windows-latest
